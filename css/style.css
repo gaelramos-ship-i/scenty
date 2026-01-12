@@ -21,6 +21,16 @@ a:hover{
     transition: all 0.3s ease-out;
 }
 
+h1{
+    font-size: 72px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+h1 span{
+    color: #4F46E5;
+}
+
 /* Header */
 
 header{
@@ -52,11 +62,77 @@ header nav a{
     border-radius: 40px;
 }
 
+/* Main */
+
+/* Section 1*/
+
+.section1{
+    max-width: 1152px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section1 article{
+    width: 90%;
+}
+
+.section1 img:nth-child(2){
+    width: 90%;
+}
+
+.section1 p{
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.section1 article p:nth-child(1){
+    width: 55%;
+    margin: 0;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 20px;
+    font-style: italic;
+    color: #4338CA;
+    font-weight: 700;
+    background: #E0E7FF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#btnDark{
+    background: #0F172A;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 20px;
+    width: fit-content;
+    display: flex;
+    margin-top: 30px;
+}
+
+#btnDark p{
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+#btnBlan{
+    border: 1px solid grey;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.section1 article div{
+    display: flex;
+    gap: 20px;
+}
+
+
 /* Footer */
 
 footer{
     background: #0F172A;
     color: #475569;
+    font-size: 14px;
 }
 
 footer div{
@@ -64,6 +140,7 @@ footer div{
     margin: auto;
     display: flex;
     padding: 50px 0;
+    align-items: center;
 }
 
 footer nav ul{
