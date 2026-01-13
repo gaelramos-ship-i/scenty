@@ -243,13 +243,13 @@ header nav a{
     margin: auto;
 }
 
-.flex div h3{
+.section3 div div div h3{
     padding: 20px 0 5px;
     margin-left: 10px;
     font-size: 18px;
 }
 
-.flex div div div p{
+.section3 div div div p{
     margin-left: 10px;
     padding-bottom: 20px;
 }
@@ -283,9 +283,11 @@ header nav a{
     gap: 40px;
 }
 
-.container p{
+.container>p{
     font-size: 16px;
     font-style: italic;
+    margin-bottom: 20px;
+    width: 90%;
 }
 
 .profil{
@@ -293,7 +295,7 @@ header nav a{
     font-weight: 700;
     padding: 10px;
     border-radius: 20px;
-    margin: auto;
+    margin: auto 0;
 }
 
 .rose{
@@ -309,6 +311,21 @@ header nav a{
 .vert{
     background: #BBF7D0;
     color: #15803D;
+}
+
+.container div div{
+    margin: 10px 0;
+    margin-left: 10px;
+}
+
+.container div div p:nth-child(1){
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.container div div p:nth-child(2){
+    font-size: 12px;
+    font-weight: 400;
 }
 
 /* Footer */
