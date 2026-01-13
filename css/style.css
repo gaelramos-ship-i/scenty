@@ -77,11 +77,11 @@ header nav a{
     width: 90%;
 }
 
-.section1 img:nth-child(2){
+.section1 > img{
     width: 90%;
 }
 
-.section1 p{
+.section1 article p{
     font-size: 20px;
     line-height: 2rem;
 }
@@ -116,15 +116,24 @@ header nav a{
 }
 
 #btnBlan{
-    border: 1px solid grey;
-    padding: 15px 20px;
+    padding: 20px;
+    color: #000;
+    border: 2px solid #80808060;
     border-radius: 20px;
+}
+
+#btnBlan p{
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .section1 article div{
     display: flex;
     gap: 20px;
+    align-items: end;
 }
+
+/* Revoir la section qualité de l'air sur le figma */
 
 
 /* Footer */
