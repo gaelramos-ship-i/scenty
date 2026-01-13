@@ -204,12 +204,44 @@ header nav a{
     margin: auto;
 }
 
-.section3 article{
+.flex{
     display: flex;
 }
 
-#sectionImg{
-    width: 50%;
+.section3 div h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.section3 div p{
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.section3 article div:nth-child(1){
+    width: 40%;
+    margin: 0;
+}
+
+.numero{
+    background: linear-gradient(#4F46E5, #9333EA);
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 50%;
+    
+}
+
+.flex div h3{
+    padding: 20px 0 5px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.flex div div div p{
+    margin-left: 10px;
+    padding-bottom: 20px;
 }
 
 /* Footer */
