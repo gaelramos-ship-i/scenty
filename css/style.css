@@ -136,6 +136,37 @@ header nav a{
 /* Revoir la section qualité de l'air sur le figma */
 
 
+/* section 2 */
+
+.section2{
+    max-width: 1104px;
+    margin: auto;
+    text-align: center;
+}
+
+.section2 h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.section2 article:nth-child(1) p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 63%;
+    margin-bottom: 50px;
+}
+
+.section2 article:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    padding: 50px 0;
+}
+
+
+
+
 /* Footer */
 
 footer{
